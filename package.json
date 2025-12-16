@@ -1,0 +1,44 @@
+{
+  "name": "clean-craftsmanship-katas-js",
+  "version": "0.1.0",
+  "description": "Personal TDD/BDD practice katas in JavaScript/TypeScript inspired by Uncle Bob and Clean Craftsmanship.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "tdd",
+    "bdd",
+    "kata",
+    "javascript",
+    "typescript",
+    "vitest",
+    "eslint",
+    "prettier",
+    "clean-code",
+    "clean-craftsmanship"
+  ],
+  "author": "gcake119",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@eslint/json": "^0.14.0",
+    "@eslint/markdown": "^7.5.1",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vitest": "^0.5.4",
+    "globals": "^16.5.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.0"
+  }
+}
